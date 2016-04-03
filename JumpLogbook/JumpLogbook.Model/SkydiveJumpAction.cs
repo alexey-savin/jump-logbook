@@ -9,7 +9,7 @@ namespace JumpLogbook.Model
     public class SkydiveJumpAction : JumpAction
     {
         public bool IsCutaway { get; set; }
-        public int Height { get; set; }
+        public int Altitude { get; set; }
 
         public Dropzone Dropzone { get; set; }
         public Aircraft Aircraft { get; set; }

@@ -10,5 +10,6 @@ namespace JumpLogbook.Model
     {
         public string Location { get; set; }
         public int Height { get; set; }
+        public BASEObjectType Type { get; set; }
     }
 }

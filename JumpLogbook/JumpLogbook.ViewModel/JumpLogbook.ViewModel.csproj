@@ -44,6 +44,16 @@
     <Compile Include="NotifyPropertyChangedBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JumpLogbook.Model\JumpLogbook.Model.csproj">
+      <Project>{e438c6c7-cf17-4940-941e-a9ff83e21205}</Project>
+      <Name>JumpLogbook.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JumpLogbook.Storage\JumpLogbook.Storage.csproj">
+      <Project>{7a463542-7e1d-41a7-ad29-ebe8cc38e7c7}</Project>
+      <Name>JumpLogbook.Storage</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

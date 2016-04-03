@@ -24,5 +24,10 @@ namespace JumpLogbook.WPF
         {
             InitializeComponent();
         }
+
+        private void buttonAircrafts_Click(object sender, RoutedEventArgs e)
+        {
+            mainFrame.NavigationService.Navigate(new Uri("Pages/Aircrafts.xaml", UriKind.Relative));
+        }
     }
 }

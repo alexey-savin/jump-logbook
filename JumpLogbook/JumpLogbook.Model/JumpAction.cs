@@ -15,5 +15,6 @@ namespace JumpLogbook.Model
         public JumpActionType Type { get; set; }
 
         public BASEObject BASEObject { get; set; }
+        public JumpTeam Team { get; set; }
     }
 }

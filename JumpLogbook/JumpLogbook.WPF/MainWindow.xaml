@@ -18,9 +18,11 @@
             <Button x:Name="buttonAircrafts" 
                     Content="Aircrafts" 
                     Width="100" 
-                    HorizontalAlignment="Left"/>
+                    HorizontalAlignment="Left"
+                    Click="buttonAircrafts_Click"/>
         </StackPanel>
         <Frame x:Name="mainFrame" 
-               Grid.Row="1"/>
+               Grid.Row="1" 
+               NavigationUIVisibility="Visible"/>
     </Grid>
 </Window>

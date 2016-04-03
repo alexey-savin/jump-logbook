@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace JumpLogbook.ViewModel
 {
-    public class AircraftViewModel
+    public class AircraftViewModel : NotifyPropertyChangedBase
     {
+        public string ViewModelText => "Aircrafts in this place";
     }
 }
